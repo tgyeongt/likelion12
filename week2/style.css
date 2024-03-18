@@ -1,0 +1,26 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.picture {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-image: url('https://i.pinimg.com/564x/e9/b3/4d/e9b34dda1bc0b977263d46625d25b963.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+ul {
+    margin: 20px 0px;
+}
+
+li {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
