@@ -55,6 +55,9 @@ import { useState } from 'react';
     const [todoList, setTodoList] = useState([]);
 
     function handleClick() {
+      if (todo.trim() === '') {
+        return;
+      }
       setTodoList([todo, ...todoList]);
       setTodo('');
     }
