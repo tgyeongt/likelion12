@@ -2,7 +2,7 @@ export const DUMMY = [
     {
         id: 1,
         name: '자몽허니블랙티',
-        memo: 'ICED | 물 적게 | 티 많이 | 클래식 시럽 없이 | 허니자몽소스 5'
+        memo: 'ICED | 물 적게 | 티 많이 | 클래식 시럽 없이 | 허니자몽소스 5 '
     },
     {
         id: 2,
