@@ -3,7 +3,7 @@ import HomePage from './pages/Home';
 import MenuPage from './pages/Menu';
 import ErrorPage from './pages/Error';
 import RootLayout from './components/RootLayout';
-import IntroLayout from './components/MenuLayout';
+import MenuLayout from './components/MenuLayout';
 import MenuDetailPage from './pages/MenuDetail';
 
 
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'intro',
-        element: <IntroLayout/>,
+        element: <MenuLayout/>,
         children: [
           {
             index: true,
