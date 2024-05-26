@@ -28,7 +28,7 @@ export default function Header() {
                 <img src="src/assets/logo.png" alt="logo" width="50" />
             </Link>
             <Nav to="/">HOME</Nav>
-            <Nav to="/intro">MENU</Nav>
+            <Nav to="/menu">MENU</Nav>
         </FlexContainer>
         </>
     );
