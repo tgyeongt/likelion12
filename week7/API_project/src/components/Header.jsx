@@ -23,11 +23,9 @@ export default function Header() {
     return (
         <>
         <FlexContainer>
-            <Link to="/">
-                <img src="src/assets/logo.png" alt="logo" width="50" />
-            </Link>
-            <Nav to="/">HOME</Nav>
-            <Nav to="/menu">MENU</Nav>
+            <Nav to="/">홈가기</Nav>
+            <Nav to="/get">GET</Nav>
+            <Nav to="/post">POST</Nav>
         </FlexContainer>
         </>
     );
